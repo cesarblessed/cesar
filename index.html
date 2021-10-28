@@ -1,0 +1,1030 @@
+<!doctype html>
+<!--
+	Author by FreeHTML5.co
+	Twitter: https://twitter.com/fh5co
+	Facebook: https://fb.com/fh5co
+	URL: https://freehtml5.co
+-->
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<title>Author</title>
+</head>
+<style type="text/css">
+	/*
+ * Author by FreeHTML5.co
+ * Twitter: https://twitter.com/fh5co
+ * Facebook: https://fb.com/fh5co
+ * URL: https://freehtml5.co
+ */
+/* Fonts */
+@font-face {
+  font-family: 'Calisto-MT';
+  src: url(../fonts/Calisto-MT.ttf); }
+
+@font-face {
+  font-family: 'Calisto-MT-Italic';
+  src: url(../fonts/Calisto-MT-Italic.ttf); }
+
+@font-face {
+  font-family: 'Calisto-MT-Bold';
+  src: url(../fonts/Calisto-MT-Bold.ttf); }
+
+/* Colors */
+/* Universal style */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Calisto-MT";
+}
+
+.app-container {
+  width: 1115px;
+  margin: 0 auto; 
+}
+@media (max-width: 1250px) {
+    .app-container {
+    	width: 90%; 
+    } 
+}
+
+.tag-h2 {
+  font-size: 48px;
+  text-align: center;
+  color: #222; 
+}
+
+@media (max-width: 1250px) {
+    .tag-h2 {
+      font-size: 38px; 
+    }
+}
+
+@media (max-width: 668px) {
+    .tag-h2 {
+      font-size: 30px; 
+    }
+}
+
+.tag-h2-bckg {
+  background-image: url("../images/double-line.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom; 
+}
+
+.app-navigation {
+  position: absolute;
+  top: 4.6%;
+  width: 100%;
+  z-index: 2; 
+}
+
+.app-navigation-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.main-navigation {
+  color: #fff;
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background: #000;
+  opacity: 1.0; 
+}
+ .main-navigation .main-navigation__ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3%;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  background-color: black; 
+}
+
+.main-navigation .main-navigation__ul li {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.main-navigation .main-navigation__ul a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s ease; 
+}
+      
+.main-navigation .main-navigation__ul a:hover {
+  color: lightgreen; 
+}
+  
+@media (max-width: 1150px) {
+    .main-navigation {
+      opacity: 0.94; 
+    }
+}
+
+.burger-container {
+  cursor: pointer;
+  z-index: 3; 
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 3px;
+  background-color: #c18f59;
+  margin: 6px 0;
+  transition: 0.4s; 
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-6px, 6px);
+  background-color: #c18f59; 
+}
+
+.change .bar2 {
+  opacity: 0;
+  background-color: #c18f59; 
+}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-6px, -7px);
+  background-color: #c18f59; 
+}
+
+.stop-scroll {
+  overflow: hidden; 
+}
+
+.fh5co-top-banner {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background-image: url("../images/top-banner-bckg.jpg");
+  background-position: center;
+  background-size: cover; 
+}
+
+.fh5co-top-banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.9; 
+}
+
+.fh5co-top-banner .app-container {
+    position: relative;
+    z-index: 1; 
+}
+
+@media (max-width: 1600px) {
+    .fh5co-top-banner {
+      padding-top: 180px; 
+    } 
+}
+
+@media (max-width: 1250px) {
+    .fh5co-top-banner {
+     padding-top: 130px; 
+    } 
+}
+
+@media (max-width: 520px) {
+    .fh5co-top-banner {
+   	 padding-top: 105px; 
+    } 
+}
+
+@media (min-width: 1600px) {
+    .fh5co-top-banner {
+      min-height: 100vh; 
+    } 
+}
+
+.top-banner__inner {
+  display: flex;
+  align-items: center; 
+}
+
+.top-banner__inner .top-banner__text {
+    margin-left: 54px; 
+}
+
+@media (max-width: 1250px) {
+    .top-banner__inner .top-banner__text {
+     width: 35%; 
+    } 
+}
+
+@media (max-width: 768px) {
+    .top-banner__inner .top-banner__text {
+     width: 50%;
+     margin-left: 20px; 
+    } 
+}
+
+@media (max-width: 520px) {
+    .top-banner__inner .top-banner__text {
+     width: 65%;
+     margin-bottom: 20px;
+     margin-left: 0; 
+    } 
+}
+    
+.top-banner__inner .top-banner__text p {
+    margin-bottom: 42px;
+    color: #777; 
+}
+      
+@media (max-width: 768px) {
+    .top-banner__inner .top-banner__text p {
+     margin-bottom: 25px;
+     font-size: 14px; 
+    } 
+}
+  .top-banner__inner .top-banner__h2 {
+    font-size: 74px;
+    letter-spacing: 3px;
+    color: #fff;
+    font-family: "Calisto-MT-Bold"; }
+    @media (max-width: 1250px) {
+      .top-banner__inner .top-banner__h2 {
+        font-size: 50px; } }
+    @media (max-width: 768px) {
+      .top-banner__inner .top-banner__h2 {
+        font-size: 35px; } }
+  .top-banner__inner .top-banner__text-up .top-banner__h2 {
+    margin-top: 15px; }
+    @media (max-width: 768px) {
+      .top-banner__inner .top-banner__text-up .top-banner__h2 {
+        margin-top: 0; } }
+  .top-banner__inner .top-banner__text-down {
+    margin-bottom: 20px;
+    padding-left: 27%; }
+    .top-banner__inner .top-banner__text-down .top-banner__h2 {
+      margin-bottom: 10px; }
+      @media (max-width: 768px) {
+        .top-banner__inner .top-banner__text-down .top-banner__h2 {
+          margin-bottom: 0; } }
+  .top-banner__inner .top-banner__image {
+    font-size: 0; }
+    @media (max-width: 1250px) {
+      .top-banner__inner .top-banner__image {
+        width: 50%; }
+        .top-banner__inner .top-banner__image img {
+          width: 100%; } }
+    @media (max-width: 520px) {
+      .top-banner__inner .top-banner__image {
+        width: 65%;
+        margin-bottom: 20px; } }
+  @media (max-width: 520px) {
+    .top-banner__inner {
+      flex-direction: column; } }
+
+.brand-span {
+  font-size: 14px;
+  color: #c18f59; }
+
+.about-button {
+  display: inline-block;
+  padding: 15px 50px;
+  border-radius: 15px;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #c18f59;
+  border: 2px solid #fff;
+  transition: 0.3s ease; 
+}
+  .about-button:hover, .about-button:focus {
+    color: #777; 
+    border-color: lightgreen;
+}
+
+.fh5co-about-me {
+  position: relative;
+  margin: 193px 0 199px; }
+  @media (max-width: 1250px) {
+    .fh5co-about-me {
+      margin: 150px 0; } }
+  @media (max-width: 992px) {
+    .fh5co-about-me {
+      margin: 125px 0; } }
+
+.about-me-bckg {
+  position: absolute;
+  background-image: url("../images/about-me-bckg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  top: -75px;
+  right: 0;
+  height: calc(100% + 150px);
+  width: 70%;
+  z-index: -1; }
+  .about-me-bckg:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7; }
+  @media (max-width: 992px) {
+    .about-me-bckg {
+      width: 100%;
+      padding-bottom: 15px; } }
+
+.about-me-inner {
+  display: flex;
+  justify-content: space-between; }
+  @media (max-width: 992px) {
+    .about-me-inner {
+      flex-direction: column;
+      align-items: center; } }
+
+.about-me-slider {
+  position: relative; }
+  .about-me-slider .slick-arrow {
+    position: absolute;
+    bottom: -18%; }
+  .about-me-slider .slick-prev {
+    left: 40%; }
+    @media (max-width: 520px) {
+      .about-me-slider .slick-prev {
+        left: 34%; } }
+  .about-me-slider .slick-next {
+    right: 40%; }
+    @media (max-width: 520px) {
+      .about-me-slider .slick-next {
+        right: 34%; } }
+
+.span-arrow {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #c18f59;
+  border: 1px solid #c18f59;
+  border-radius: 50%;
+  transition: 0.3s ease; }
+  .span-arrow:hover {
+    color: #fff;
+    border-color: #fff; }
+
+.portfolio-wrapper {
+  width: 390px;
+  padding: 8px;
+  text-align: center;
+  background-color: #fff; }
+  .portfolio-wrapper .portfolio__img {
+    font-size: 0; }
+    .portfolio-wrapper .portfolio__img img {
+      width: 100%; }
+  .portfolio-wrapper .portfolio__bottom {
+    padding: 35px 0 95px;
+    background-color: #f5f5f5; }
+    @media (max-width: 992px) {
+      .portfolio-wrapper .portfolio__bottom {
+        padding: 25px 0; } }
+  .portfolio-wrapper .portfolio__name {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 23px; }
+    @media (max-width: 992px) {
+      .portfolio-wrapper .portfolio__name {
+        margin-bottom: 10px; } }
+    .portfolio-wrapper .portfolio__name span {
+      font-size: 90px;
+      line-height: 75px;
+      color: #c18f59;
+      font-family: "Calisto-MT-Bold"; }
+      @media (max-width: 992px) {
+        .portfolio-wrapper .portfolio__name span {
+          font-size: 65px;
+          line-height: 62px; } }
+  .portfolio-wrapper p {
+    padding: 0 10%;
+    line-height: 25px;
+    font-style: italic;
+    color: #777; }
+    @media (max-width: 620px) {
+      .portfolio-wrapper p {
+        font-size: 15px;
+        line-height: 20px; } }
+  @media (max-width: 992px) {
+    .portfolio-wrapper {
+      margin-bottom: 20px; } }
+  @media (max-width: 620px) {
+    .portfolio-wrapper {
+      width: 250px; } }
+
+.about-me__text {
+  width: 44%;
+  margin-right: 80px;
+  text-align: center; }
+  .about-me__text .tag-h2 {
+    color: #fff;
+    padding-bottom: 20px;
+    margin-bottom: 25px; }
+  .about-me__text p {
+    margin-bottom: 35px;
+    line-height: 24px;
+    color: #c18f59; }
+    .about-me__text p span {
+      font-size: 48px;
+      color: #fff; }
+    @media (max-width: 620px) {
+      .about-me__text p {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 19px; } }
+  .about-me__text h4 {
+    margin-bottom: 7px;
+    font-size: 25px;
+    color: #c18f59; }
+  .about-me__text .p-white {
+    margin-bottom: 0;
+    color: #fff; }
+  @media (max-width: 1250px) {
+    .about-me__text {
+      width: 48%;
+      margin-right: 40px; } }
+  @media (max-width: 992px) {
+    .about-me__text {
+      width: 100%;
+      margin-right: 0; } }
+
+.slick-slide:focus {
+  outline: none; }
+
+
+
+
+
+
+
+.fh5co-counter {
+  position: relative;
+  margin-bottom: 122px;
+  padding: 100px 0;
+  background-image: url("../images/book-bckg.jpg");
+  background-size: cover;
+  background-position: center; }
+  .fh5co-counter::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c18f59;
+    opacity: 0.9; }
+  .fh5co-counter .app-container {
+    position: relative;
+    z-index: 1; }
+  @media (max-width: 850px) {
+    .fh5co-counter {
+      padding: 50px 0 20px;
+      margin-bottom: 50px; } }
+
+.counter-inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.single-count {
+  width: 23%;
+  text-align: center;
+  color: #fff; }
+  .single-count span {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: 900; }
+  .single-count p {
+    font-size: 20px;
+    text-transform: uppercase; }
+  @media (max-width: 850px) {
+    .single-count {
+      width: 48%;
+      margin-bottom: 30px; }
+      .single-count .count {
+        font-size: 35px;
+        margin-bottom: 15px; } }
+  @media (max-width: 500px) {
+    .single-count {
+      width: 100%;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #fff; } }
+
+.single-count__text {
+  display: flex;
+  justify-content: center; }
+  .single-count__text img {
+    margin-right: 20px; }
+
+.fh5co-blog {
+  margin-bottom: 175px; }
+  .fh5co-blog .tag-h2 {
+    margin-bottom: 55px;
+    padding-bottom: 20px; }
+  @media (max-width: 620px) {
+    .fh5co-blog {
+      margin-bottom: 105px; } }
+
+.blog-inner {
+  display: flex;
+  justify-content: space-between; }
+
+.blog-slider .slick-slide {
+  margin: 0 15px; }
+
+.blog-slider .slick-list {
+  margin: 0 -15px; }
+
+.single-blog {
+  display: flex !important; }
+  .single-blog .single-blog__img {
+    width: 50%;
+    font-size: 0; }
+  .single-blog .single-blog__text {
+    width: 50%;
+    padding: 7%;
+    border: 3px solid #f5f5f5;
+    border-left: 0; }
+    .single-blog .single-blog__text h4 {
+      margin-bottom: 5px;
+      font-size: 24px;
+      line-height: 33px; }
+    .single-blog .single-blog__text span {
+      display: block;
+      margin-bottom: 15px;
+      font-size: 14px;
+      color: #c18f59;
+      font-family: "Calisto-MT-Bold"; }
+    .single-blog .single-blog__text p {
+      color: #777;
+      line-height: 21px; }
+    @media (max-width: 992px) {
+      .single-blog .single-blog__text {
+        padding: 5%; }
+        .single-blog .single-blog__text h4 {
+          margin-bottom: 3px;
+          font-size: 20px;
+          line-height: 24px; }
+        .single-blog .single-blog__text p {
+          font-size: 14px;
+          line-height: 19px; } }
+    @media (max-width: 420px) {
+      .single-blog .single-blog__text {
+        padding: 3%; }
+        .single-blog .single-blog__text h4 {
+          font-size: 16px; }
+        .single-blog .single-blog__text span {
+          margin-bottom: 7px;
+          font-size: 12px; }
+        .single-blog .single-blog__text p {
+          font-size: 13px;
+          line-height: 16px; } }
+  .single-blog:nth-child(even) h4 {
+    color: #c18f59; }
+  @media (max-width: 1250px) {
+    .single-blog .single-blog__img img {
+      width: 100%;
+      height: 100%; } }
+
+.blog-slider {
+  position: relative; }
+  .blog-slider .slick-arrow {
+    position: absolute;
+    bottom: -22%; }
+  .blog-slider .slick-prev {
+    left: 45.5%; }
+    @media (max-width: 1250px) {
+      .blog-slider .slick-prev {
+        left: 40%; } }
+    @media (max-width: 520px) {
+      .blog-slider .slick-prev {
+        left: 35%; } }
+  .blog-slider .slick-next {
+    right: 45.5%; }
+    @media (max-width: 1250px) {
+      .blog-slider .slick-next {
+        right: 40%; } }
+    @media (max-width: 520px) {
+      .blog-slider .slick-next {
+        right: 35%; } }
+  .blog-slider .span-arrow:hover {
+    color: #777;
+    border-color: #777; }
+
+.fh5co-quotes {
+  position: relative;
+  padding: 135px 0 172px;
+  text-align: center;
+  background-image: url("../images/quotes-bckg.jpg");
+  background-position: center;
+  background-size: cover; }
+  .fh5co-quotes::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.9; }
+  .fh5co-quotes .app-container {
+    position: relative;
+    z-index: 1; }
+  .fh5co-quotes .tag-h2 {
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    color: #fff !important; }
+  .fh5co-quotes p {
+    width: 43%;
+    margin: 0 auto 45px;
+    color: #fff;
+    line-height: 24px; }
+    @media (max-width: 620px) {
+      .fh5co-quotes p {
+        font-size: 14px;
+        line-height: 19px; } }
+  .fh5co-quotes img {
+    margin: 0 auto 5px; }
+  .fh5co-quotes h4 {
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #c18f59; }
+  .fh5co-quotes .slick-arrow {
+    bottom: -8%; }
+  .fh5co-quotes .slick-prev {
+    left: 45.5%; }
+    @media (max-width: 1150px) {
+      .fh5co-quotes .slick-prev {
+        left: 34%; } }
+  .fh5co-quotes .slick-next {
+    right: 45.5%; }
+    @media (max-width: 1150px) {
+      .fh5co-quotes .slick-next {
+        right: 34%; } }
+  @media (max-width: 1150px) {
+    .fh5co-quotes {
+      padding: 75px 0 95px; }
+      .fh5co-quotes p {
+        width: 90%; } }
+
+.fh5co-social {
+  position: relative;
+  padding: 63px 0;
+  background-image: url("../images/social-bckg.jpg");
+  background-size: cover;
+  background-position: center; }
+  .fh5co-social::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c18f59;
+    opacity: 0.9; }
+  .fh5co-social .app-container {
+    position: relative;
+    z-index: 1; }
+  @media (max-width: 620px) {
+    .fh5co-social {
+      padding: 40px 0; } }
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .social h5 {
+    font-size: 24px;
+    color: #fff; }
+  @media (max-width: 620px) {
+    .social {
+      flex-direction: column; } }
+
+.social-icons a {
+  position: relative;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 13px 23px;
+  margin-right: 10px;
+  transition: 0.3s ease; }
+  .social-icons a:hover {
+    background-color: #777;
+    border-color: transparent; }
+
+.social-icons img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+@media (max-width: 620px) {
+  .social-icons {
+    margin: 35px 0; } }
+
+.site-footer {
+  padding-top: 120px;
+  background-color: #343434; }
+  @media (max-width: 1250px) {
+    .site-footer {
+      padding-top: 60px; } }
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 95px; }
+  .footer-inner h5 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #fff; }
+  @media (max-width: 1250px) {
+    .footer-inner {
+      padding-bottom: 50px;
+      flex-direction: column;
+      align-items: center; } }
+
+.footer-info {
+  width: 50%;
+  display: flex; }
+  .footer-info .footer-info__left {
+    margin-right: 45px; }
+    .footer-info .footer-info__left img {
+      margin-bottom: 10px; }
+    .footer-info .footer-info__left p {
+      color: #c18f59; }
+    @media (max-width: 620px) {
+      .footer-info .footer-info__left {
+        margin-right: 0;
+        margin-bottom: 20px; } }
+  .footer-info .footer-info__right p {
+    margin-bottom: 15px;
+    color: #aaa; }
+  .footer-info .footer-info__right .footer-phone {
+    font-size: 14px; }
+  .footer-info .footer-info__right .social-icons {
+    margin-top: 27px; }
+    .footer-info .footer-info__right .social-icons a {
+      padding: 9px 19px; }
+  @media (max-width: 1250px) {
+    .footer-info {
+      width: 100%;
+      margin-bottom: 20px; } }
+  @media (max-width: 620px) {
+    .footer-info {
+      flex-direction: column;
+      align-items: center; } }
+
+
+
+.footer-bottom {
+  padding: 25px 0;
+  background-color: #2d2d2d; }
+
+.footer-bottom-inner {
+  display: flex;
+  justify-content: space-between; }
+  .footer-bottom-inner p {
+    color: #777; }
+  .footer-bottom-inner a {
+    color: #c18f59;
+    text-decoration: none;
+    transition: 0.3s ease; }
+    .footer-bottom-inner a:hover {
+      color: #777; }
+  .footer-bottom-inner .footer-bottom__img img {
+    margin-right: 25px; }
+    .footer-bottom-inner .footer-bottom__img img:last-child {
+      margin-right: 0; }
+  @media (max-width: 992px) {
+    .footer-bottom-inner {
+      flex-direction: column;
+      align-items: center; }
+      .footer-bottom-inner p {
+        font-size: 14px;
+        margin-bottom: 20px; } }
+
+        .cesar_foto {
+        	width: 500px;
+        	height: 500px;
+        	border: 2px solid #FFFFFF;
+        }
+        .img-skills {
+        	width: 250px;
+        	height: 250px;
+        }
+        .img-skills-template {
+        	width: 250px;
+        	height: 400px;
+        }
+        .logo-style {
+        	color: #FFFFFF;
+        	font-size: 30px;
+        }
+        .icons-sociais {
+        	width: 30px;
+        }
+        .font-about {
+        	font-size: 18px;
+        }
+</style>
+<body>
+
+	<nav class="app-navigation">
+		<div class="app-navigation-inner app-container">
+			<p class="logo-style">CsStyle</p>
+			<div class="main-navigation">
+				<ul class="main-navigation__ul">
+					<li><a href="#">Instagram</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Linkedin</a></li>
+				</ul>
+			</div>
+			<div id="myBtn" class="burger-container" onclick="myFunction(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			<script>
+				function myFunction(x) {
+					x.classList.toggle("change");
+				}
+			</script>
+
+		</div>
+	</nav>
+	
+	<section class="fh5co-top-banner">
+		<div class="top-banner__inner app-container">
+			<div class="top-banner__image">
+				<img src="./images/cesar.jpg" alt="author image" class="cesar_foto">
+			</div>
+			<div class="top-banner__text">
+				<div class="top-banner__text-up">
+					<span class="brand-span">Ola! Eu sou</span>
+					<h2 class="top-banner__h2">Cesar</h2>
+				</div>
+				<div class="top-banner__text-down">
+					<h2 class="top-banner__h2">Augusto</h2>
+					<span class="brand-span">Programador Web</span>
+				</div>
+				<p>Existe vários destinos! Cada um escolhe o seu! Deus é fiel</p>
+				<a href="#" class="about-button">Sobre</a>
+			</div>
+		</div>
+	</section>
+	
+	<section class="fh5co-about-me">
+		<div class="about-me-inner app-container">
+			<article class="portfolio-wrapper">
+				<div class="portfolio__img">
+					<img src="./images/c_blusa.jpg" class="about-me__profile" alt="about me profile picture">
+				</div>
+				<div class="portfolio__bottom">
+					<div class="portfolio__name">
+						<h2 class="tag-h2">Cesar Augusto</h2>
+					</div>
+					<p>Sou programador web há cerca de 5 anos</p>
+				</div>
+			</article>
+			<div class="about-me__text">
+				<div class="about-me-slider">
+					<div class="about-me-single-slide">
+						<h2 class="tag-h2 tag-h2-bckg">Sobre mim</h2>
+						<p class="font-about">Meu nome é Cesar Augusto de Paula, tenho 18 anos sou formado em técnico em informática no Instituto Federal Fluminense. Estou cursando sistemas de informação. Me dedico durante 5 anos a programação. A programação ganhou muito espaço no meu cotidiano, pois passo boa parte do dia estudando cada vez mais as novas tecnologias. Estou muito focado ultimamente na área da tecnologia, e seus patamares. No meu ensino médio foram desenvolvidos vários projetos web e mobile, terminando o terceiro ano com um projeto de TCC.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-me-bckg"></div>
+	</section>
+	
+	<section class="fh5co-books">
+		<div class="app-container">
+			<h2 class="tag-h2 tag-h2-bckg">Habilidades</h2>
+			<div class="books">
+				<div class="single-book">
+					<a class="single-book__img">
+						<img src="./images/js.png" alt="single book and cd" class="img-skills">
+						
+					</a>
+					<h4 class="single-book__title">JavaScript</h4>
+				</div>
+				<div class="single-book">
+					<a class="single-book__img">
+						<img src="./images/php.png" alt="single book and cd" class="img-skills">
+					</a>
+					<h4 class="single-book__title">PHP</h4>
+					
+				</div>
+				<div class="single-book">
+					<a class="single-book__img">
+						<img src="./images/html.jpg" alt="single book and cd" class="img-skills">
+					</a>
+					<h4 class="single-book__title">HTML</h4>
+				</div>
+				<div class="single-book">
+					<a class="single-book__img">
+						<img src="./images/css.jpg" alt="single book and cd" class="img-skills">
+					</a>
+					<h4 class="single-book__title">CSS</h4>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	
+	<section class="fh5co-blog">
+		<div class="app-container">
+			<h2 class="tag-h2 tag-h2-bckg">Meu blog</h2>
+			<div class="blog-slider blog-inner">
+				<div class="single-blog">
+					<div class="single-blog__img">
+						<img src="./images/c_programador.jpg" alt="blog image" class="img-skills-template">
+					</div>
+					<div class="single-blog__text">
+						<h4>Frontend</h4>
+						<span>2016...</span>
+						<p>Desenvolvo estilização de sites e aplicativos, tenho conhecimento em HTML, CSS, JavaScript. Utilizo essas tecnologias para o desenvolvimento das páginas e aplicações.</p>
+					</div>
+				</div>
+				<div class="single-blog">
+					<div class="single-blog__img">
+						<img src="./images/c_programador.jpg" alt="blog image" class="img-skills-template">
+					</div>
+					<div class="single-blog__text">
+						<h4>Backend</h4>
+						<span>2018...</span>
+						<p>Backend comecei estudando por PHP, foram 2 anos em PHP e logo depois comecei aprender JavaScript e Node, e continuarei estudando ao decorrer dos anos os novos frameworks e bibliotecas que estiverem atualmente sendo utilizadas.</p>
+					</div>
+				</div>
+				<div class="single-blog">
+					<div class="single-blog__img">
+						<img src="./images/c_programador.jpg" alt="blog image" class="img-skills-template">
+					</div>
+					<div class="single-blog__text">
+						<h4>Banco de dados</h4>
+						<span>2018...</span>
+						<p>O banco de dados que comecei aprendendo foi o MySQL, comecei fazendo projetos simples com ele. E depois fazendo projetos maiores. Ele atendia muito bem para o projeto que estava desenvolvendo. Utilizo ele até hoje as vezes. Mas atualmente estou usando o MongoDB.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="fh5co-quotes">
+		<div class="app-container">
+			<div class="about-me-slider">
+				<div>
+					<h2 class="tag-h2 tag-h2-bckg">História</h2>
+					<p>Comecei estudando meu ensino fundamental no Colégio Estadual Senador Sá Tinoco, que fica no distrito de Itaperuna. Terminei meu ensino fundamental já fazendo a prova para ingressar no ensino médio integrado ao curso técnico em informática. Consegui passar na prova para estudar no Instituto Federal Fluminense, que cursei durante os 3 anos, 2018 - 2020. Me formei em técnico em informática. No mesmo ano fiz o Enem e passei para faculdade de sistemas de informação, que pretendo cursar até 2025. Minha vida acadêmica foi perfeita no meu ver. Sempre encaixou todos meus planos e não passei nenhum ano sem estudar esperando vagas ou provas...</p>
+				</div>
+				<div>
+					<h2 class="tag-h2 tag-h2-bckg">Objetivo</h2>
+					<p>Meu objetivo é me tornar um programador cada vez mais experiênte. Venho estudando desde 2016 na área da técnologia. pretendo me tornar um programador web FullStack. Durante esse tempo aprendi várias tecnologias como, JavaScript, PHP, HTML, CSS, Jquery, MongoDB, Express, Android, MySQL...Passei a gostar de programação quando descobri que tem como se fazer coisas incriveis com ela. E ela se torna infinita quando podemos fazer tudo de acordo com nossa imaginação.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer class="site-footer">
+		<div class="footer-bottom">
+			<div class="app-container footer-bottom-inner">
+				<p>© 2021 Autor | Cesar Augusto Oliveira de Paula</a> | Todos direitos reservados</p>
+				<div class="social-icons">
+					<a href="https://www.instagram.com/cesaraugusto_oficial/" target="_blank"><img src="./images/instagram.png" alt="social icon" class="icons-sociais"></a>
+					<a href="https://www.facebook.com/cesar.augustodepaula.10/" target="_blank"><img src="./images/facebook.png" alt="social icon" class="icons-sociais"></a>
+					<a href="https://www.linkedin.com/in/cesar-de-paula-2b0431218/" target="_blank"><img src="./images/linkedin.png" alt="social icon" class="icons-sociais"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
